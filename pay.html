@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Payment</title>
+</head>
+<style>
+  .logo{ 
+    position: relative;
+    left:750px;
+    top: 300px;
+  }
+  .table{
+   position: relative;
+   bottom:260px; 
+  }
+  .button{
+    position: relative;
+   bottom:100px; 
+   left: 350px;
+  }
+  .balance {
+    padding: 2px;
+    background: #fff;
+    opacity: 300;
+    border: 10px solid #555;
+    color: #666;
+    text-align: center; 
+    font: 50px Arial, sans-serif;
+}
+  </style>  
+<body>	  
+      <div class="balance">
+        <h4><b>Your Current wallet Balance is: </b>
+        <h1><b>14000</b>
+        </div>
+        <div class="table">
+          <table width="650" height="45%" border="10">
+        	 <tr>
+        	 <td><strong><h3>Pay to</h3></strong></td>
+        	 <td><label>
+        	   <select name="payto" id="payto">
+                <option value="">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </option>
+                </select>
+      	         </label></td>
+      	       </tr>
+        	     <tr>
+        	     <td><strong><h3>Payment amount</h3></strong></td>
+        	     <td><label>
+        	     <input type="text" name="pay_amt" id="pay_amt" size="30" />
+      	        </label></td>
+      	      </tr>
+        	    <tr>
+        	      <td><strong><h3>Purpose of payment</h3></strong></td>
+        	      <td><label>
+                  <input type="text" name="pay_amt" id="pay_amt" size="30" />
+                </label></td>
+              </div>
+              <div class="logo">
+              <img src="addmoney.png" width="300" height="250">
+                <div class="button">
+                  <button><b>Add Money</b></button>
+                </div>
+              </div>
+
+
+
+</body>
+</html>
